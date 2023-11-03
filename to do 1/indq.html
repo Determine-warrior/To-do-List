@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Task List</h1>
+        <input type="text" id="task-input" placeholder="Add a task...">
+        <button id="add-task">Add Task</button>
+        <div class="task-list">
+            <h2>Pending Tasks</h2>
+            <ul id="pending-list">
+            </ul>
+        </div>
+        <div class="completed-list">
+            <h2>Completed Tasks</h2>
+            <ul id="completed-list">
+            </ul>
+        </div>
+        <div id="removed-list">
+            <h2>Removed Tasks</h2>
+            <ul id="removed-tasks">
+            </ul>
+        </div>
+        <div>
+            <p>Total Tasks: <span id="total-tasks">0</span></p>
+            <p>Completed Tasks: <span id="completed-tasks">0</span></p>
+            <p>Pending Tasks: <span id="pending-tasks">0</span></p>
+            <p>Removed Tasks: <span id="removed-tasks-count">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
